@@ -1,0 +1,107 @@
+
+
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline:none;
+    font-family:'Poppins', sans-serif;
+    
+}
+
+body
+{
+    background:#017dd3;
+}
+
+#wrapper {
+   position: absolute;
+   top: 50%;
+   transform:translateY(-50%);
+   width:100%;
+   padding:0 20px;
+
+  }
+
+
+#formulario
+{
+  max-width:550px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+}
+
+/*#nombreinput {
+    background:transparent;
+    outline:none;
+    border:3px solid rgba(255, 255, 255, 0.2);
+    border-radius:10px;
+  padding: 15px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.08),-3px -2px 3px rgba(255, 255, 255, 0.2),2px 2px 2px 
+    rgba(0, 0, 0, 0.2) inset;
+    }
+    
+    #nombreinput {
+    background:transparent;
+    outline:none;
+    border:3px solid rgba(255,255, 255, 0.2);
+    border-radius:10px;
+  padding: 15px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.08),-3px -2px 3px rgba(33, 10, 245, 0.2), 2px 2px 2px 
+    rgba(0, 0, 0, 0.2) inset;
+    }
+    
+    https://dribbble.com/shots/9533184-Exploring-neumorphism-tabbar
+
+    como darle estilo a un input file css
+    
+    */
+
+
+#nombreinput {
+    background:transparent;
+    outline:none;
+    width: 110%;
+    border:3px solid rgba(255,255, 255, 0.2);
+    border-radius:10px;
+  padding: 15px;
+    box-shadow: 2px 2px 2px #0033A0,-3px -2px 3px rgba(241, 239, 239, 0.2), 2px 2px 2px 
+    rgba(241, 239, 239, 0.555) inset;
+    }
+  
+    input[type="file"]{
+      display:none;
+    }
+
+label
+{
+   
+        background:transparent;
+        outline:none;
+        width: 110%;
+        border:3px solid rgba(255,255, 255, 0.2);
+        border-radius:10px;
+      padding: 15px;
+        box-shadow: 2px 2px 2px #0033A0,-3px -2px 3px rgba(241, 239, 239, 0.2), 2px 2px 2px 
+        rgba(241, 239, 239, 0.555) inset;
+        
+
+}
+
+
+#muchos_inputs
+{
+  display:flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  border: 1px solid grey;
+  background: #FFFAAA;
+}

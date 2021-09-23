@@ -1,0 +1,237 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:#017dd3;;
+  }
+  h1 {
+    margin: 0 0 0.25em;
+  }
+
+  .ellogo {
+    width: 150px;
+    height: 50px;
+    float: none;
+}
+
+
+.logoempresa {
+    height: -webkit-fill-available;
+    float: right;
+    margin-right: -17px;
+    margin-top: -36px;
+}
+
+  /* Reset Select */
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #2c3e50;
+    background-image: none;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+
+  /* Custom Select */
+  .select {
+      background: transparent;
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    box-shadow: 2px 2px 2px #0033A0,-3px -2px 3px rgba(241, 239, 239, 0.2), 2px 2px 2px 
+    rgba(241, 239, 239, 0.555) inset;
+    overflow: hidden;
+    border-radius: .25em;
+   
+  }
+  select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #0033A0;
+  }
+  
+
+
+
+  /**************select img1*******************/
+
+  
+  /* Custom Select */
+  .select1 {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: transparent;
+    box-shadow: 2px 2px 2px #0033A0,-3px -2px 3px rgba(241, 239, 239, 0.2), 2px 2px 2px 
+    rgba(241, 239, 239, 0.555) inset;
+    overflow: hidden;
+    border-radius: .25em;
+    margin-top:36px;
+  }
+  
+  /* Arrow */
+  .select1::after {
+    content: '\25BC';
+    position: absolute;
+    top: -36px;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    margin-top:36px;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select1:hover::after {
+    color: #0033A0;
+  }
+  
+
+
+
+
+  /**************fin select img1*******************/
+
+  
+
+
+/***************select img2*******************/
+ /* Custom Select */
+ .select2 {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: transparent;
+    box-shadow: 2px 2px 2px #0033A0,-3px -2px 3px rgba(241, 239, 239, 0.2), 2px 2px 2px 
+    rgba(241, 239, 239, 0.555) inset;
+    overflow: hidden;
+    border-radius: .25em;
+    margin-top:36px;
+   /* float:left;
+    margin-right: -400px;
+    margin-top:36px;*/
+  }
+
+  /* Arrow */
+  .select2::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: transparent;
+    box-shadow: 2px 2px 2px #0033A0,-3px -2px 3px rgba(241, 239, 239, 0.2), 2px 2px 2px 
+    rgba(241, 239, 239, 0.555) inset;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select2:hover::after {
+    color: #0033A0;
+  }
+  
+
+
+
+
+/***************finselect img2*******************/
+
+
+
+/***************select img3*******************/
+ /* Custom Select */
+ .select3 {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: transparent;
+    box-shadow: 2px 2px 2px #0033A0,-3px -2px 3px rgba(241, 239, 239, 0.2), 2px 2px 2px 
+    rgba(241, 239, 239, 0.555) inset;
+    overflow: hidden;
+    border-radius: .25em;
+    margin-top:36px;
+   
+  }
+
+  /* Arrow */
+  .select3::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select3:hover::after {
+    color: #0033A0;
+  }
+  
+
+
+/***************finselect img3*******************/
+
+
+#enviar
+{
+    
+    margin-top: 36px;
+
+    background:transparent;
+    outline:none;
+    width: 110%;
+    border:3px solid rgba(255,255, 255, 0.2);
+    border-radius:10px;
+  padding: 15px;
+    box-shadow: 2px 2px 2px #0033A0,-3px -2px 3px rgba(241, 239, 239, 0.2), 2px 2px 2px 
+    rgba(241, 239, 239, 0.555) inset;
+    cursor: pointer;
+}

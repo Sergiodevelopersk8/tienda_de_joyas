@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+background-color:#017dd3;
+}
+
+.ocultar{
+    display:none;
+}
+.ellogo {
+    width: 150px;
+    height: 50px;
+    float: none;
+}
+
+
+.logoempresa {
+    height: -webkit-fill-available;
+    float: right;
+    margin-right: -120px;
+    margin-top: 26px;
+}
+
+#formulario
+{
+    margin-top: -36px;
+  max-width:374px;
+  margin: 0 auto;
+  background: transparent;
+  box-shadow: 2px 2px 2px #0033A0,-3px -2px 3px rgba(241, 239, 239, 0.2), 2px 2px 2px 
+  rgba(241, 239, 239, 0.555) inset;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+}
+
+#enviar
+  {
+    margin-top: 63px;
+    background:transparent;
+  outline:none;
+  width: 110%;
+  border:3px solid rgba(255,255, 255, 0.2);
+  border-radius:10px;
+padding: 15px;
+  box-shadow: 2px 2px 2px #0033A0,-3px -2px 3px rgba(241, 239, 239, 0.2), 2px 2px 2px 
+  rgba(241, 239, 239, 0.555) inset;
+  cursor: pointer;
+  }
+
+  #nombre {
+      margin-top:15px;
+    background:transparent;
+    outline:none;
+    width: 96%;
+    border:3px solid rgba(255,255, 255, 0.2);
+    border-radius:10px;
+  padding: 15px;
+    box-shadow: 2px 2px 2px #0033A0,-3px -2px 3px rgba(241, 239, 239, 0.2), 2px 2px 2px 
+    rgba(241, 239, 239, 0.555) inset;
+    }
+
+
+#textoinput{
+    margin-top:10px;
+}
+
+
+    
+  select {
+    flex: 1;
+    padding: 0 .5em;
+     background: transparent;;
+    cursor: pointer;
+  }
+ /* Custom Select */
+ .select{
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: transparent;
+    box-shadow: 2px 2px 2px #0033A0,-3px -2px 3px rgba(241, 239, 239, 0.2), 2px 2px 2px 
+    rgba(241, 239, 239, 0.555) inset;
+    overflow: hidden;
+    border-radius: .25em;
+    margin-top:36px;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #0033A0;
+  }
+  
+
+
+
+  /**************select img1*******************/
+
+  
+ 
+  
+  
+
+
+
+
+  /**************fin select img1*******************/
+
+  
+
+
+/***************select img2*******************/
+ /* Custom Select */
+ .select2 {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: transparent;
+    box-shadow: 2px 2px 2px #0033A0,-3px -2px 3px rgba(241, 239, 239, 0.2), 2px 2px 2px 
+    rgba(241, 239, 239, 0.555) inset;
+    overflow: hidden;
+    border-radius: .25em;
+    margin-top:36px;
+   /* float:left;
+    margin-right: -400px;
+    margin-top:36px;*/
+  }
+
+ /* Arrow */
+ .select2::after {
+    content: '\25BC';
+    position: absolute;
+    top: -36px;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    margin-top:36px;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select2:hover::after {
+    color: #0033A0;
+  }
+  
+
+
+
+
+/***************finselect img2*******************/

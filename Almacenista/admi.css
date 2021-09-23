@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.ellogo
+{
+    width: 150px;
+    height: 50px;
+    float:none;
+   
+
+}
+.logoempresa{
+  height:-webkit-fill-available;
+}
+
+body
+{
+    background-color: skyblue;
+}
+
+.perfilusuario{
+height: 100px;
+width: 265px;
+background-color: white;
+float: right;
+margin-top: 20px;
+margin-right: 25px;
+}
+
+
+/*menu*/
+
+
+h5{
+    font-size: 16px;
+}
+
+h5:hover .categorias{
+   
+    color: #14d625;
+    text-shadow: 0 0 10px #05a02b,
+    0 0 20px #05a02b,
+    0 0 40px #05a02b,
+    0 0 80px #05a02b,
+    0 0 120px #05a02b,
+    0 0 120px #05a02b;
+  }
+
+  h5:hover .productos{
+   
+    color: #ee0303;
+    text-shadow: 0 0 10px #d13131,
+    0 0 20px #d13131,
+    0 0 40px #d13131,
+    0 0 80px #d13131,
+    0 0 120px #d13131,
+    0 0 120px #d13131;
+  }
+/******fin de las letras inicio******/
+
+/***************tareas******************/
+  
+h5:hover .t{
+    color: #0b31d8;
+    text-shadow: 0 0 10px #3b58d9,
+    0 0 20px #3b58d9,
+    0 0 40px #3b58d9,
+    0 0 80px #3b58d9,
+    0 0 120px #3b58d9,
+    0 0 120px #3b58d9;
+  }
